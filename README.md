@@ -8,7 +8,7 @@ html و css الواجهة الامامية: لغتي
 mysql و python :  الواجهة الخلفية لغتي
 
 التي بدورها ستهتم بالهيكل الاساسي الذي يظهر للمستخدمين html سنبدأ بـ
-'''
+
 <head>
     
     <title>Control Robot Arm</title>
@@ -16,5 +16,5 @@ mysql و python :  الواجهة الخلفية لغتي
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
     
 </head>
-'''
+
 
