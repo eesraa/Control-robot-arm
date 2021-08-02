@@ -16,4 +16,9 @@ mysql و python :  الواجهة الخلفية لغتي
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
     
     </head>
- head عنصر الـ
+    
+ :يحتوي على معلومات الصفحة مثل head عنصر الـ
+
+tital عنوان الصفحة المتواجد داخل عنصر الـ
+
+الذي يقوم بالربطبين لغتي الواجهة الأمامية link وعنصر الـ
