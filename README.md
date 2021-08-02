@@ -9,12 +9,12 @@ mysql و python :  الواجهة الخلفية لغتي
 
 التي بدورها ستهتم بالهيكل الاساسي الذي يظهر للمستخدمين html سنبدأ بـ
 
-<head>
+    <head>
     
     <title>Control Robot Arm</title>
     
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
     
-</head>
+    </head>
 
 
