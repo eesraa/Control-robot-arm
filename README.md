@@ -1,4 +1,4 @@
-# Control-robot-arm
+#Control-robot-arm
 
 ننشئ واجهة مستخدم خاصة بالتحكم بذراع الروبوت تحتوي على ٦ محركات وزري للحفظ والتشغيل سنحتاج الى ٣ لغات برمجية ولغة ترميز واحدة ستصنف حسب الآتي
 
@@ -16,5 +16,4 @@ mysql و python :  الواجهة الخلفية لغتي
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
     
     </head>
-
-
+ head عنصر الـ
