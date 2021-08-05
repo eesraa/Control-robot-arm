@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Control Robot Arm</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css')}}">
+</head>
+<body>
+<div>
+    <form action="/my-link/" method="POST">
+    <p> محرك ١ </p>
+    <div class="main">
+        <input name="R1" type="range" min="0" max="180" value="90" id="slider" oninput='document.getElementById("demo1").innerHTML = this.value' />
+        <p id='demo1'>90</p>
+    </div>
+    <p>محرك ٢</p>
+    <div class="main">
+        <input name="R2" type="range" min="0" max="180" value="90" id="slider" oninput='document.getElementById("demo2").innerHTML = this.value' />
+        <p id='demo2'>90</p>
+    </div>
+    <p>محرك ٣</p>
+    <div class="main">
+        <input name="R3" type="range" min="0" max="180" value="90" id="slider" oninput='document.getElementById("demo3").innerHTML = this.value' />
+        <p id='demo3'>90</p>
+    </div>
+    <p>محرك ٤</p>
+    <div class="main">
+        <input name="R4" type="range" min="0" max="180" value="90" id="slider" oninput='document.getElementById("demo4").innerHTML = this.value' />
+        <p id='demo4'>90</p>
+    </div>
+    <p>محرك ٥ </p>
+    <div class="main">
+        <input name="R5" type="range" min="0" max="180" value="90" id="slider" oninput='document.getElementById("demo5").innerHTML = this.value' />
+        <p id='demo5'>90</p>
+    </div>
+    <p> محرك ٦</p>
+    <div class="main">
+        <input name="R6" type="range" min="0" max="180" value="90" id="slider" oninput='document.getElementById("demo6").innerHTML = this.value' />
+        <p id='demo6'>90</p>
+    </div>
+    <labl><input type="checkbox" name="R7" >تشغيل</labl>
+    <p></p>
+    <button class="btn default" type="submit">حفظ</button>
+    </form>
+</div>
+</body>
+</html>
